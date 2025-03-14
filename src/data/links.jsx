@@ -29,7 +29,7 @@ export const links = [
   {
     name: "Moto Grupo Lambaris",
     link: "https://www.facebook.com/MotoGrupoLambaris",
-    color: "#000",
+    color: "#111",
     expirationDate: "2028-12-31",
     icon: <span><Lambari /></span>,
     // icon: <span><Lambari /><RiMotorbikeFill size={24} color="#fdd"/></span>,
