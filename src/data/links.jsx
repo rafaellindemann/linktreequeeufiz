@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-import { GiFruitTree } from "react-icons/gi";
+import { GiFishCorpse, GiFruitTree } from "react-icons/gi";
 
 export const links = [
   {
@@ -29,5 +29,12 @@ export const links = [
     color: "#633",
     expirationDate: "2028-12-31",
     icon: <FaInstagram />,
+  },
+  {
+    name: "Moto Grupo Lambaris",
+    link: "https://www.facebook.com/MotoGrupoLambaris",
+    color: "#222",
+    expirationDate: "2028-12-31",
+    icon: <GiFishCorpse />,
   },
 ];
