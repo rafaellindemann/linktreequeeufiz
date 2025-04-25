@@ -1,5 +1,5 @@
 import { span } from "framer-motion/client";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaStar } from "react-icons/fa";
 import { GiFishCorpse, GiFruitTree } from "react-icons/gi";
 import { RiMotorbikeFill } from "react-icons/ri";
 import Lambari from "../components/Lambari";
@@ -41,5 +41,19 @@ export const links = [
     color: "#633",
     expirationDate: "2028-12-31",
     icon: <FaInstagram size={24} color="#ffafcc" />,
+  },
+  {
+    name: "Instagram do Jamanjo",
+    link: "https://www.instagram.com/jamanjo.4devs/",
+    color: "#633",
+    expirationDate: "2028-12-31",
+    icon: <FaInstagram size={24} color="#ffafcc" />,
+  },
+  {
+    name: "Repositório do Jamanjo",
+    link: "https://github.com/rafaellindemann/jamanjo",
+    color: "#242",
+    expirationDate: "2028-12-31", // Link expirado
+    icon: <FaStar size={28} color="#0f0"/>,
   },
 ];
